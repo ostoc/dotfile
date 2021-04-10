@@ -1,0 +1,95 @@
+# espanso configuration file
+
+# This is the default configuration file, change it as you like it
+# You can refer to the official documentation:
+# https://espanso.org/docs/
+
+# Matches are the substitution rules, when you type the "trigger" string
+# it gets replaced by the "replace" string.
+
+matches:
+  # Jira Tickets
+  - trigger: ":task"
+    replace: |-
+      h3. Todo
+      $|$
+
+      h3. Details
+
+
+      h3. Acceptance Criteria
+
+
+      h3. Notes
+  - trigger: ":story"
+    replace: |-
+      h3. User Story
+      $|$
+
+      h3. Design
+
+      h3. Tracking
+
+      {code:js}
+      event:
+      properties:
+      {code}
+
+      h3. Acceptance Criteria
+
+
+      h3. Notes
+  - trigger: ":bug"
+    replace: |-
+      h3. Expected behavior
+      $|$
+
+      h3. Actual behavior
+
+
+      h3. Steps to reproduce
+
+      h3. Environment information
+
+      * Version: Web-3.0.0
+      * Build: 
+      * Env:
+      * Browser: Chrome, Firefox, Edge
+
+      h3. Notes
+  - trigger: ":testw"
+    replace: |-
+      *Test Results:* (/)
+
+      - Browser: Chrome, Firefox, Safari
+      - Environment: staging
+
+      *Attachments:*
+
+      *Resolution:*
+  - trigger: ":testm"
+    replace: |-
+      *Test Results:* (/)
+
+      - Version:
+      - Build:
+      - Device:
+      - Environment: staging, production
+
+      *Attachments:*
+
+      *Resolution:*
+  # Panel
+  - trigger: ":panel"
+    replace: |-
+      {panel:title=$|$}
+      Some text with a title
+      {panel}
+  # Dates
+  - trigger: ":esdate"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y-%m-%d"
