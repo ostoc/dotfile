@@ -9,12 +9,28 @@
 node ia-todos.js
 ```
 
-## Dotfile
+## Espanso
 
-### Espanso
+### Install
 
 ```
 brew tap federico-terzi/espanso
 brew install espanso
 ```
+### Config
+```
+
+```
+
+## Oh My Zsh
+
+### Install
+
+```
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+## Font
+
+https://www.jetbrains.com/lp/mono/
+
 
