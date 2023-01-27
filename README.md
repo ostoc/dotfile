@@ -1,5 +1,16 @@
 # Dotfile
 
+## Command Line Tool for Xcode
+
+```
+xcode-select --install
+```
+
+Alternative:
+
+Downoload from https://developer.apple.com/download/all/
+
+
 ## Scripts
 
 ### Get IA Writer todos
