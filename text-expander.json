@@ -1,8 +1,8 @@
 {
-    ">task": "h3. Background & Details\n\n\nh3. Requirements & AC\n\n\nh3. Notes",
-    ">re": "*Resolution:*\n\n*Reason:*\n",
-    ">bug": "h3. Expected behavior\n\nh3. Actual behavior\n\nh3. Steps to reproduce\n\nh3. Potential Cause\n\nh3. Notes / Attachment\n\nh3. Environment\n\n- Environment: Staging, Production\n- Browser: Chrome, Safari, Firefox\n",
-    ">panel": "{panel:bgColor=#FF5500}\n{panel}",
-    ">story": "{panel:bgColor=#FAA775}\n{color:#ffffff}Refine{color}\n{panel}\n\nh3. User Story\n\nh3. Requirements & AC\n\nh3. Design\n\nh3. Tracking\n\n{code:js}\nevent:\nproperties:\n{code}\n\nh3. Notes",
-    ">test": "*Test Results:* (/)\n\n*Resolution:*\n\n*Notes / Attachment:*\n\n*Environment:*\n\n- Environment: QA, Staging, Production\n- Browser: Chrome, Safari, Firefox"
+  ";bug": "h3. Expected behavior\n\nh3. Actual behavior\n\nh3. Steps to reproduce\n\nh3. Potential Cause\n\nh3. Notes / Attachment\n\nh3. Environment\n\n- Environment: Staging, Production\n- Browser: Chrome, Safari, Firefox\n",
+  ";panel": "{panel:bgColor=#FF5500}\n{panel}",
+  ";re": "*Resolution:*\n\n*Reason:*\n",
+  ";story": "{panel:bgColor=#FAA775}\n{color:#ffffff}Refine{color}\n{panel}\n\nh3. User Story\n\nh3. Requirements & AC\n\nh3. Design\n\nh3. Tracking\n\n{code:js}\nevent:\nproperties:\n{code}\n\nh3. Notes",
+  ";task": "h3. Background & Details\n\n\nh3. Requirements & AC\n\n\nh3. Notes",
+  ";test": "*Test Results:* (/)\n\n*Resolution:*\n\n*Notes / Attachment:*\n\n*Environment:*\n\n- Environment: QA, Staging, Production\n- Browser: Chrome, Safari, Firefox"
 }
